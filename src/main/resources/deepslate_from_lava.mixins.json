@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sn2.deepslate.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "MixinFluidBlock",
+    "MixinLavaFluid"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
